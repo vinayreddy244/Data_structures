@@ -11,6 +11,11 @@ class Queue
         System.out.println("top of queue is:"+top(queue));
         pop(queue);
         printQueue(queue);
+        printSize(queue);
+    }
+    public static void printSize(ArrayList<Integer> queue)
+    {
+        System.out.println("Queue size is:"+queue.size());
     }
     public static void pop(ArrayList<Integer> queue)
     {
